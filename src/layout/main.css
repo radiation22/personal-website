@@ -1,0 +1,17 @@
+.profile-container {
+    width: 30%;
+}
+
+.details {
+    width: 70%;
+}
+
+@media screen and (max-width:820px) {
+    .profile-container {
+        width: 98%;
+    }
+
+    .details {
+        width: 98%;
+    }
+}

@@ -1,0 +1,18 @@
+.top-bar {
+    background-image: url(../../assets/black-blocks.jpg);
+    background-repeat: no-repeat;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.animate-slide {
+    animation: slide 10s linear infinite;
+}
